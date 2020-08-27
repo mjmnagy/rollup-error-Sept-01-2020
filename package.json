@@ -1,0 +1,42 @@
+{
+  "name": "icon",
+  "version": "0.0.0",
+  "description": "Abstraction of font awesome icons allowing for dynamic requires",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "prod": "vue-cli-service build --report --target lib --name sc pkge/index.js",
+    "lint": "vue-cli-service lint",
+    "start": "nuxt start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://mjmnagy@bitbucket.org/fsumedia/icon.git"
+  },
+  "keywords": [
+    "icons"
+  ],
+  "author": "FSU Media Corp.",
+  "license": "SEE LICENSE IN license.txt",
+  "homepage": "https://bitbucket.org/fsumedia/icon#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "@fortawesome/fontawesome-pro": "^5.13.1",
+    "@fortawesome/fontawesome-svg-core": "^1.2.29",
+    "@fortawesome/vue-fontawesome": "^0.1.10",
+    "@nuxtjs/axios": "^5.11.0",
+    "@nuxtjs/dotenv": "^1.4.0",
+    "@nuxtjs/pwa": "^3.0.0-0",
+    "@vue/cli-service": "^4.4.6",
+    "css-loader": "^3.6.0",
+    "html-loader": "^0.5.5",
+    "node-sass": "^4.14.1",
+    "nuxt": "^2.14.0",
+    "sass-loader": "^8.0.2",
+    "vue": "^2.6.11",
+    "vue-flatpickr-component": "^8.1.5",
+    "vue-template-compiler": "^2.6.11",
+    "vue-trix": "^1.1.11"
+  }
+}
