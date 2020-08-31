@@ -1,5 +1,5 @@
 {
-  "name": "general/icons",
+  "name": "@fsu/icons",
   "version": "0.0.0",
   "description": "Abstraction of font awesome icons allowing for dynamic requires",
   "main": "index.js",
