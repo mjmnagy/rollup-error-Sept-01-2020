@@ -1,7 +1,6 @@
 {
   "name": "@i/icons",
   "version": "0.0.36",
-  "description": "Abstraction of font awesome",
   "main": "dist/icons.ssr.js",
   "browser": "dist/icons.esm.js",
   "module": "dist/icons.esm.js",
